@@ -31,7 +31,7 @@ var datos = [
 var visualization = d3plus.viz()
   .container("#viz1")
   .data(datos)
-  .type("bar")
+  .type("line")
   .id("name")
   .x("periodo")
   .y("Nºcasos")
