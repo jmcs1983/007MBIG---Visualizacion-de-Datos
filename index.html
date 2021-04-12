@@ -100,7 +100,7 @@
       </ul>
       Sin seleccionar ninguna comunidad autonóma del gráfico de barras, se muestras las líneas temporales de Marzo para el conjunto nacional. 
       <br>
-      Si se selecciona en el gráfico de barras, cualquiera de las comunidades autónomas, se muestras las líneas temporales para dicha comunidad.
+      Si se selecciona en el gráfico de barras, cualquiera de las comunidades autónomas, se muestran las líneas temporales para dicha comunidad.
       <p align="center">
         <iframe src="https://public.tableau.com/views/VacunacionCOVID/Vacunacion?:showVizHome=no&:embed=true" style="border: none;" width="1025" height="830"></iframe>
       </p>
@@ -120,11 +120,24 @@
 
     <div class="bloque">
       <h3><b>DISTRIBUCIÓN DE LA VACUNACIÓN POR EDADES</b></h3>
+      <div class="text">
+      Sin duda, por la letalidad del virus en mayores de 80 años, estos son los grupos de edad en los que la vacunación se ha distribuido inicialmente. 
+      <br>
+      Posteriormente, y según el protocolo de vacunación acordado por las distintas comunidades autónomas, se han ido inyectando dosis en grupos de riesgo como sanitarios, trabajadores esenciales, etc...
+      <br>
+      De nuevo, se hace uso de la herramienta Tableau, puesto que permite diseñar un panel interactivo en el que se han insertado las siguientes gráficas: 
+      <ul>
+        <li>Un <b>gráfico de barras</b> con la población a vacunar por cada comunidad autónoma según datos del Instituto Nacional de Estadística</li>
+        <li>Mediante <b>gráficos de barras</b> se puede observar, para cada grupo de edad definido, la cantidad de ciudadanos a vacunar, cuantos han recibido y cuantos han recibido las dos dosis y por tanto están inumnizados</li>
+        <li>Otro <b>gráfico de líneas</b> con el porcentaje de vacunas administradas frente a entregadas, pues es un dato interesante que da una idea sobre la velocidad de vacunación</li>
+      </ul>
+      Como en el panel anterior, sin seleccionar ninguna comunidad autonóma del gráfico de barras, se muestran los datos para el total nacional.
+      <br>
+      Si se selecciona en el gráfico de barras cualquiera de las comunidades autónomas, se muestras los datos correspondientes a dicha comunidad.
       <p align="center">
         <iframe src="https://public.tableau.com/views/Trabajo_EDADES/Dashboard1?:showVizHome=no&:embed=true" style="border: none;" width="1025" height="830"></iframe>
       </p>
-      <div class="text">
-        En el mapa se muestra el porcentaje de población inmunizada para cada <b>comunidad autónoma</b>
+      A destacar que, de los 2.834.024 de ciudadanos que forman el grupo prioritario de mayores de 80 años, sólo 2.126.877 han recibido al menos 1 dosis, con lo que tras tres meses de vacunación, más de 700.000 personas no han recibido ni una dosis. Un dato que se podría calificar como <b>"preocupante"</b>.
       </div>
     </div>
 
@@ -134,7 +147,15 @@
         <div id="viz1"></div>
       </div>
       <div class="text">
-        Pues aquí se ve
+        Sin duda alguna, el efecto de la pandemia, fue letal en las residencias españolas sobre todo, durante la primera ola de la pandemia. 
+        <br>
+        Por ese motivo, tal y como ya se ha señalado, la campaña de vacunación se ha centrado inicialmente en inmunizar a los mayores de 80 años, 
+        <br>
+        Pero ¿es posible apreciar algún efecto a día de hoy? La respuesta es SI. 
+        <br>
+        Claramente se puede observar en el <b>gráfico de líneas</b> construido mediante javascript, en el que se representa mediante una línea el número de casos COVID en residencias desde Enero de 2021, y en otra línea el número de defunciones. 
+        <br>
+        La tendencia, es muy esperanzadora: de casi 5000 casos a mediados de Enero, a los 34 casos detectados a finales del mes de Marzo.
       </div>
       <div style="clear: both"></div>
     </div>
